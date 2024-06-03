@@ -45,6 +45,10 @@
     <string name="province_example">Province</string>
     <string name="order_history">Order History</string>
     <string name="product_name">Product Name</string>
-    <string name="product_count">total items</string>
-    <string name="product_price">product price</string>
+    <string name="product_count">x %s</string>
+    <string name="product_price">Rp %s</string>
+    <string name="location">shop location</string>
+    <string name="share_shop">share shop</string>
+    <string name="share_button">share button</string>
+    <string name="shop_products">Products</string>
 </resources>

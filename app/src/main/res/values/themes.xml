@@ -39,6 +39,15 @@
         <item name="android:src">@drawable/baseline_camera_alt</item>
     </style>
 
+    <style name="ShareButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginEnd">15dp</item>
+        <item name="android:contentDescription">@string/share_button</item>
+        <item name="android:src">@drawable/baseline_share_24</item>
+    </style>
+
+
     <style name="CardTextInput">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
