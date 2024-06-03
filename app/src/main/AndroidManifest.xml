@@ -14,15 +14,8 @@
         tools:targetApi="31">
         <activity
             android:name=".editshop.EditShopActivity"
-            android:exported="false" />
-        <activity
-            android:name=".detailedit.DetailEditActivity"
-            android:exported="false" />
-        <activity
-            android:name=".editprofile.EditProfileActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize"
             android:exported="true"
-            android:label="@string/title_activity_edit_profile"
+            android:label="@string/edit_shop"
             android:theme="@style/Base.Theme.AIREAL">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -31,14 +24,16 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".detailedit.DetailEditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".editprofile.EditProfileActivity"
+            android:exported="true"
+            android:label="@string/title_activity_edit_profile"
+            android:theme="@style/Base.Theme.AIREAL" />
+        <activity
             android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>

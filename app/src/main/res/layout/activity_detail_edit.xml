@@ -16,7 +16,7 @@
             android:id="@+id/view"
             android:layout_width="match_parent"
             android:layout_height="54dp"
-            android:background="@color/blue"
+            android:background="@color/deep_grey2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />

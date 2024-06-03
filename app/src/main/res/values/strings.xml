@@ -31,4 +31,16 @@
     <string name="choose_camera">choose camera</string>
     <string name="choose_gallery">choose gallery</string>
     <string name="choose_photo">choose photo</string>
+    <string name="edit_shop">Edit Shop</string>
+    <string name="shop_name">Shop Name</string>
+    <string name="shop_name_example">shop name</string>
+    <string name="shop_description"> Shop Description</string>
+    <string name="shop_description_example">description</string>
+    <string name="shop_address">Shop Address</string>
+    <string name="detail_address">Address</string>
+    <string name="shop_address_example">detail address</string>
+    <string name="regency">Regency</string>
+    <string name="regency_example">regency</string>
+    <string name="province">Province</string>
+    <string name="province_example">Province</string>
 </resources>
