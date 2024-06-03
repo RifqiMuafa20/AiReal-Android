@@ -43,4 +43,8 @@
     <string name="regency_example">regency</string>
     <string name="province">Province</string>
     <string name="province_example">Province</string>
+    <string name="order_history">Order History</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_count">total items</string>
+    <string name="product_price">product price</string>
 </resources>

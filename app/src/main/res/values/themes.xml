@@ -60,4 +60,11 @@
         <item name="android:textColor">@color/grey</item>
         <item name="android:textSize">11sp</item>
     </style>
+    <style name="ProductTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
 </resources>
