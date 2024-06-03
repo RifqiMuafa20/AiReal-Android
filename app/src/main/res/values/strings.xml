@@ -51,4 +51,10 @@
     <string name="share_shop">share shop</string>
     <string name="share_button">share button</string>
     <string name="shop_products">Products</string>
+    <string name="product_image">product image</string>
+    <string name="visit_store">Visit Store</string>
+    <string name="product_details">Product Details</string>
+    <string name="product_description_example">Product Description</string>
+    <string name="cart">Cart</string>
+    <string name="buy_now">Buy Now</string>
 </resources>
