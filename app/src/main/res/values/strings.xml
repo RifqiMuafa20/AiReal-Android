@@ -1,3 +1,34 @@
 <resources>
     <string name="app_name">AIREAL</string>
+    <string name="title_activity_edit_profile">EditProfileActivity</string>
+    <string name="back_button">Back to activity</string>
+    <string name="save_changes">Save changes</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="full_name">Name</string>
+    <string name="full_name_example">fullname</string>
+    <string name="gender">Gender</string>
+    <string name="gender_example">gender</string>
+    <string name="birthdate">Birth Date</string>
+    <string name="birthdate_example">birthdate</string>
+    <string name="email">Email</string>
+    <string name="email_example">email address</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="phone_number_example">phone number</string>
+    <string name="address">Address</string>
+    <string name="address_example">home address</string>
+    <string name="answer_hint">Input your answer here…</string>
+    <string name="change_title">Edit %s</string>
+    <string name="max_character">Maks. 100 characters</string>
+    <string name="save_changes_confirm">Save</string>
+    <string name="delete_changes_confirm">Delete</string>
+    <string name="man">Man</string>
+    <string name="woman">Woman</string>
+    <string name="cancelled_confirmation">Are you sure want to cancel the changes?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="save_changes_confirmation">Are you sure want to save the changes?</string>
+    <string name="choose_camera">choose camera</string>
+    <string name="choose_gallery">choose gallery</string>
+    <string name="choose_photo">choose photo</string>
 </resources>
