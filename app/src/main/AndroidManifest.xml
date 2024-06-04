@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+
 
     <application
         android:allowBackup="true"
@@ -14,7 +17,13 @@
         tools:targetApi="31">
         <activity
             android:name=".detailproduct.DetailProductActivity"
-            android:exported="false" />
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".shopdisplay.ShopDisplayActivity"
             android:exported="false" />
@@ -25,13 +34,7 @@
             android:name=".editshop.EditShopActivity"
             android:exported="true"
             android:label="@string/edit_shop"
-            android:theme="@style/Base.Theme.AIREAL">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:theme="@style/Base.Theme.AIREAL" />
         <activity
             android:name=".detailedit.DetailEditActivity"
             android:exported="false" />
