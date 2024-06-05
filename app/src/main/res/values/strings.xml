@@ -59,4 +59,43 @@
     <string name="buy_now">Buy Now</string>
     <string name="search_bar">search something</string>
     <string name="product_category">Category</string>
+    <string name="add_product">Add Product</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="product_photos">Product Photo</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="price">Price</string>
+    <string name="product_stock">Stock</string>
+    <string name="cancelled_add_product">Are you sure to cancel add product?</string>
+
+    <string-array name="product_categories">
+        <item>Electronics</item>
+        <item>Clothing</item>
+        <item>Accessories</item>
+        <item>Beauty</item>
+        <item>Kids</item>
+        <item>Sports &amp; Outdoors</item>
+        <item>Food</item>
+        <item>Books</item>
+        <item>Tools</item>
+        <item>Furniture</item>
+        <item>Shoes</item>
+        <item>Other</item>
+    </string-array>
+
+    <integer-array name="image_categories">
+        <item>@drawable/electronics</item>
+        <item>@drawable/clothes</item>
+        <item>@drawable/accessories</item>
+        <item>@drawable/lipstics</item>
+        <item>@drawable/kids</item>
+        <item>@drawable/sports</item>
+        <item>@drawable/food</item>
+        <item>@drawable/book</item>
+        <item>@drawable/tools</item>
+        <item>@drawable/furnitures</item>
+        <item>@drawable/shoes</item>
+        <item>@drawable/other</item>
+    </integer-array>
+
 </resources>

@@ -15,17 +15,14 @@
         android:theme="@style/Base.Theme.AIREAL"
         tools:targetApi="31">
         <activity
+            android:name=".addproduct.AddProductActivity"
+            android:exported="true" />
+        <activity
             android:name=".explore.ExploreActivity"
             android:exported="false" />
         <activity
             android:name=".detailproduct.DetailProductActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".shopdisplay.ShopDisplayActivity"
             android:exported="false" />
@@ -47,7 +44,13 @@
             android:theme="@style/Base.Theme.AIREAL" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" />
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

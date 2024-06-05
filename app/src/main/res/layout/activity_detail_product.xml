@@ -5,20 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".detailproduct.DetailProductActivity" >
+    tools:context=".detailproduct.DetailProductActivity">
 
     <FrameLayout
         android:id="@+id/frame"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginBottom="80dp"
+        android:layout_marginBottom="60dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
@@ -56,6 +56,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="215dp"
                     android:layout_centerInParent="true"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/view2"
                     app:sliderAnimationDuration="600"
                     app:sliderAutoCycleDirection="back_and_forth"
                     app:sliderIndicatorAnimationDuration="600"
@@ -67,10 +70,7 @@
                     app:sliderIndicatorRadius="2dp"
                     app:sliderIndicatorSelectedColor="#5A5A5A"
                     app:sliderIndicatorUnselectedColor="#FFF"
-                    app:sliderScrollTimeInSec="1"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/view2" />
+                    app:sliderScrollTimeInSec="1" />
 
                 <TextView
                     android:id="@+id/product_name"
@@ -214,8 +214,8 @@
     <View
         android:id="@+id/view"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:background="@color/young_grey2"
+        android:layout_height="60dp"
+        android:background="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -226,31 +226,28 @@
         style="?attr/materialButtonOutlinedStyle"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
-        android:text="@string/cart"
-        app:strokeColor="@color/deep_grey"
-        app:strokeWidth="2dp"
-        android:fontFamily="@font/poppins_medium"
-        android:textSize="12sp"
-        android:textColor="@color/deep_grey2"
         android:backgroundTint="@color/white"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/cart"
+        android:textColor="@color/deep_grey2"
+        android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@id/buy_now"
-        app:layout_constraintHorizontal_bias="0.403"
+        app:layout_constraintEnd_toStartOf="@+id/buy_now"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/buy_now"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="@+id/view"
+        app:strokeColor="@color/deep_grey"
+        app:strokeWidth="2dp" />
 
     <Button
         android:id="@+id/buy_now"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:text="@string/buy_now"
         android:fontFamily="@font/poppins_medium"
+        android:text="@string/buy_now"
         android:textSize="12sp"
         app:backgroundTint="@color/deep_grey"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@id/cart" />
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintStart_toEndOf="@+id/cart"
+        app:layout_constraintTop_toTopOf="@+id/cart" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
